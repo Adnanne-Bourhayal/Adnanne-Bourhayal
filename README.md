@@ -1,13 +1,9 @@
-# >> adnanne <<
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/91544028/253807698-eec0f37c-0104-4581-beac-18deffa75646.png" alt="Welcome banner">
-</p>
-
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=200&pause=1000&center=true&width=435&lines=Welcome+to+Adnan's+GitHub!" alt="Typing SVG">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=200&pause=1000&center=true&width=435&lines=Welcome+to+Adnan's+GitHub!&color=000000" alt="Typing SVG">
   </a>
 </div>
+
 
 ---
 
@@ -31,9 +27,10 @@
 
 <!-- Skills section -->
 <h3>
-  <img src="https://github.com/oscarqjh/oscarqjh/assets/91544028/b7ccc297-0415-4881-b5b3-e9c3e57fa76f" width="40px" height="40px">
-   Skills
+  <img src="https://cdn-icons-png.flaticon.com/512/1855/1855614.png" width="40px" height="40px" alt="Skills Icon">
+  Skills
 </h3>
+
 <p>Languages and Technologies:</p>
 &nbsp;&nbsp;
 <img src="http://img.shields.io/badge/-Java-e8892f?style=flat-square&logo=java&logoColor=white" alt="Java">
