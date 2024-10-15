@@ -27,9 +27,11 @@
 
 <!-- Skills section -->
 <h3>
-  <img src="https://cdn-icons-png.flaticon.com/512/1855/1855614.png" width="40px" height="40px" alt="Skills Icon">
+  <img src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png" width="20px" height="20px" alt="Skills Icon">
   Skills
 </h3>
+
+
 
 <p>Languages and Technologies:</p>
 &nbsp;&nbsp;
@@ -48,9 +50,10 @@
 
 <!-- Education section -->
 <h3>
-  <img src="https://user-images.githubusercontent.com/91544028/253814269-9c8eff65-6f72-424a-939c-e2baefe74ac7.gif" width="40px" height="40px"> 
+  <img src="https://cdn-icons-png.flaticon.com/512/2089/2089749.png" width="20px" height="20px" alt="Education Icon">
   Education
 </h3>
+
 <ul>
   <li>Currently studying: Multiplatform Application Development</li>
   <li>Additional training: Cybersecurity, Big Data, and SAP systems</li>
