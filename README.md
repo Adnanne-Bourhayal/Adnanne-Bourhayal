@@ -201,13 +201,12 @@ I combine **technical skills + creativity + business mindset** to create solutio
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Adnanne-Bourhayal&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats-omega-five-75.vercel.app/api?username=Adnanne-Bourhayal&show_icons=true&theme=tokyonight" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adnanne-Bourhayal&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats-omega-five-75.vercel.app/api/top-langs/?username=Adnanne-Bourhayal&layout=compact&theme=tokyonight" />
 </p>
-
 ---
 
 ## 🤝 Connect with Me
