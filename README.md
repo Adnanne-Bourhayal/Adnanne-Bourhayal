@@ -97,7 +97,7 @@ My work combines **technical execution**, **product thinking**, and **adaptabili
 ## 🎓 Education
 
 - 🎓 Higher Technician in Multiplatform Application Development (DAM)  
-- 🎓 BSc Computer Science (ongoing)
+- 🎓 BSc Computer Science 
 
 ---
 
