@@ -169,7 +169,7 @@ I combine **technical skills + creativity + business mindset** to create solutio
   <img src="https://img.shields.io/badge/Documentation-5D4037?style=flat-square" />
   <img src="https://img.shields.io/badge/Requirements_Analysis-3949AB?style=flat-square" />
 </p>
----
+
 
 ## 🎓 Education
 
@@ -207,7 +207,7 @@ I combine **technical skills + creativity + business mindset** to create solutio
 <p align="center">
   <img src="https://github-readme-stats-omega-five-75.vercel.app/api/top-langs/?username=Adnanne-Bourhayal&layout=compact&theme=tokyonight" />
 </p>
----
+
 
 ## 🤝 Connect with Me
 
