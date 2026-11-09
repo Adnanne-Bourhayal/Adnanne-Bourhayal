@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&pause=1000&center=true&width=800&lines=Welcome+to+Adnan's+GitHub!;Software+Engineer+%7C+Full-Stack+%7C+Security+%7C+AI;Building+real-world+applications+and+scalable+systems;Backend%2C+Mobile+and+Business-oriented+solutions" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&pause=1000&center=true&width=800&lines=Welcome+to+Adnan's+GitHub!;Entry-level+Application+and+Technical+Support;Windows%2C+SQL%2C+CRM+and+APIs;Spanish+and+English+%7C+Belgium" alt="Typing SVG" />
   </a>
 </div>
 
@@ -8,21 +8,21 @@
 
 <h3 align="center">About Me</h3>
 
-Hi, I'm **Adnan**, a **Software Engineer** with a background in **Multiplatform Application Development (DAM)** and ongoing studies in **Computer Science**.
+Hi, I'm **Adnan**, based in **Belgium**, with a background in **Computer Science** and **Multiplatform Application Development (DAM)**.
 
-I build **real-world applications** across **full-stack, backend, and mobile environments**, with a growing focus on **cybersecurity**, **scalable systems**, and **AI-assisted development**.
+I'm looking for an **entry-level Application Support or Technical Support role**, working in **Spanish and English**. I enjoy understanding technical problems and explaining solutions clearly.
 
-My work combines **technical execution**, **product thinking**, and **adaptability**. I enjoy building solutions that are structured, practical, and relevant to real business or user needs.
+During my internship at UDIT, I worked with Windows environments, user access and permissions, Microsoft tools and a database-driven booking application. My projects give me practical experience with Java, Spring Boot, SQL, REST APIs and troubleshooting connections between applications and databases.
 
 ---
 
 ## Core Focus
 
-- Building **real-world full-stack, backend, and mobile applications**
-- Developing **scalable systems** and structured APIs
-- Strengthening my foundation in **cybersecurity** and secure development
-- Leveraging **AI tools** to accelerate development and problem-solving
-- Creating software that solves **real business and product needs**
+- Troubleshooting application, access and configuration issues
+- Helping users and documenting clear procedures
+- Working with CRM tools, SQL databases and APIs
+- Building practical projects to understand how software works
+- Learning towards customer onboarding and technical implementation roles
 
 ---
 
