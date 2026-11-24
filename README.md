@@ -12,7 +12,7 @@ Hi, I'm **Adnan**, based in **Belgium**, with a background in **Computer Science
 
 I'm looking for an **entry-level Application Support or Technical Support role**, working in **Spanish and English**. I enjoy understanding technical problems and explaining solutions clearly.
 
-During my internship at UDIT, I worked with Windows environments, user access and permissions, Microsoft tools and a database-driven booking application. My projects give me practical experience with Java, Spring Boot, SQL, REST APIs and troubleshooting connections between applications and databases.
+At UDIT, I worked with Windows environments, user access and permissions, Microsoft tools and a database-driven booking application. My projects give me practical experience with Java, Spring Boot, SQL, REST APIs and troubleshooting connections between applications and databases.
 
 ---
 
