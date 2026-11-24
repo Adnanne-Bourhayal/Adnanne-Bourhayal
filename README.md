@@ -9,4 +9,6 @@ I build backend applications and help people use them. At UDIT in Madrid, I supp
 - **Altaira Workspace** is my university CRM project. Follow an enquiry from first contact to a private client workspace. The Spring Boot API checks what each user can read and change. [Explore the source and tests](https://github.com/Altaira-Labs/Altaira-Labs)
 - **Smart API Monitor** classifies API activity with rules. A Java service passes request data to a Python service and a web interface displays the result. [Explore the integration](https://github.com/Adnanne-Bourhayal/Smart-Api)
 
-For project walkthroughs, my education and ways to get in touch, visit [my portfolio](https://adnanport.vercel.app/).
+You can also [try the FinFlow monthly budget](https://finflowbeta.vercel.app/) or [copy a component from Front/SaaS](https://front-saas-library.vercel.app/).
+
+For project walkthroughs, my education and ways to get in touch, visit [my portfolio](https://adnanne-bourhayal.vercel.app/).
