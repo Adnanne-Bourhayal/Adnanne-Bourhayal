@@ -1,14 +1,34 @@
-# Adnan · Software Developer & Technical Support
+<h1 align="center">Hi, I'm Adnan Bourhayal</h1>
+<p align="center"><strong>Software Developer · Technical Support</strong></p>
 
-![Java](https://img.shields.io/badge/Java-7A3825) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-365A37) ![SQL](https://img.shields.io/badge/SQL-34526F)
+<p align="center">
+  <img alt="Java" src="./assets/stack/java.svg">
+  <img alt="Spring Boot" src="./assets/stack/spring.svg">
+  <img alt="PostgreSQL" src="./assets/stack/postgresql.svg">
+  <img alt="TypeScript" src="./assets/stack/typescript.svg">
+  <br>
+  <img alt="HTML" src="./assets/stack/html5.svg">
+  <img alt="CSS" src="./assets/stack/css3.svg">
+  <img alt="Git" src="./assets/stack/git.svg">
+  <img alt="Docker" src="./assets/stack/docker.svg">
+</p>
 
-I build backend applications and help people use them. At UDIT in Madrid, I supported students and staff with Microsoft 365 access, wrote user guides and worked on a room-booking application with C#, ASP.NET Core and SQL Server. I work in Spanish and English.
+<p align="center"><a href="https://adnanne-bourhayal.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/adnan-abattah-a22bb926a/">LinkedIn</a></p>
 
-## Selected work
+---
 
-- **Altaira Workspace** is my university CRM project. Follow an enquiry from first contact to a private client workspace. The Spring Boot API checks what each user can read and change. [Explore the source and tests](https://github.com/Altaira-Labs/Altaira-Labs)
-- **Smart API Monitor** classifies API activity with rules. A Java service passes request data to a Python service and a web interface displays the result. [Explore the integration](https://github.com/Adnanne-Bourhayal/Smart-Api)
+### About me
 
-You can also [try the FinFlow monthly budget](https://finflowbeta.vercel.app/) or [copy a component from Front/SaaS](https://front-saas-library.vercel.app/).
+I build backend applications with Java and Spring Boot. At UDIT in Madrid, I helped students and staff access Microsoft 365, wrote sign-in guides and worked on a room-booking app in C#, ASP.NET Core and SQL Server. I work in Spanish and English.
 
-For project walkthroughs, my education and ways to get in touch, visit [my portfolio](https://adnanne-bourhayal.vercel.app/).
+---
+
+### Selected work
+
+**Altaira Workspace** · My university CRM project. It takes a new enquiry through to a private client workspace. The Spring Boot API checks who can see and change each record. [Source and tests](https://github.com/Altaira-Labs/Altaira-Labs)
+
+**Nova Detailing** · I run a detailing business in Belgium. Its website helps drivers choose a service and request a quote. [Visit the business](https://nvdetail.vercel.app/)
+
+**Smart API Monitor** · Pick a sample API request and see which rule gave it its score. The scorer runs in Python behind a Java service. [Try the demo](https://smart-api-monitor.vercel.app/) · [Source](https://github.com/Adnanne-Bourhayal/Smart-Api)
+
+You can also [try a monthly budget in FinFlow](https://finflowbeta.vercel.app/) or [copy a working component from Front/SaaS Library](https://front-saas-library.vercel.app/).
