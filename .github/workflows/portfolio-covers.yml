@@ -1,0 +1,85 @@
+name: Refresh portfolio covers
+
+on:
+  schedule:
+    - cron: '27 4 * * *'
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: portfolio-covers
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: portfolio-previews
+          path: .previous-covers
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Install the capture tools
+        run: |
+          python -m pip install 'playwright==1.65.2' 'Pillow==13.0.0'
+          python -m playwright install --with-deps chromium --only-shell
+      - name: Capture the public sample pages
+        run: python scripts/capture-portfolio.py "$RUNNER_TEMP/covers" .previous-covers
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: covers
+          path: ${{ runner.temp }}/covers/*.webp
+          retention-days: 1
+          if-no-files-found: error
+
+  publish:
+    runs-on: ubuntu-24.04
+    needs: capture
+    timeout-minutes: 3
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: portfolio-previews
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: covers
+          path: ${{ runner.temp }}/covers
+      - name: Publish valid, changed images
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
+
+          directory = Path(os.environ["RUNNER_TEMP"]) / "covers"
+          names = {"smart-api.webp", "finflow.webp", "nova.webp", "import.webp"}
+          for image in directory.iterdir():
+              if image.name not in names or image.is_symlink() or not image.is_file():
+                  raise SystemExit("Unexpected capture artifact")
+              data = image.read_bytes()
+              if not (0 < len(data) < 600_000 and data[:4] == b'RIFF' and
+                      data[8:16] == b'WEBPVP8 ' and data[23:26] == b'\x9d\x01\x2a' and
+                      int.from_bytes(data[4:8], 'little') == len(data)-8 and
+                      int.from_bytes(data[26:28], 'little') == 1280 and
+                      int.from_bytes(data[28:30], 'little') == 720):
+                  raise SystemExit("Invalid or incorrectly sized WebP")
+              Path(image.name).write_bytes(data)
+          PY
+          git add -- smart-api.webp finflow.webp nova.webp import.webp
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh public project screenshots"
+          git push origin HEAD:refs/heads/portfolio-previews
